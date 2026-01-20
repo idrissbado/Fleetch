@@ -53,10 +53,13 @@ LinkedIn : idriss-olivier-bado | GitHub/PyPI : idrissbado
 - Prioriser la maintenance préventive et l’innovation data
 - S’inspirer des leaders du secteur tout en adaptant aux réalités locales
 
-## Pour aller plus loin
-- Connecter le dashboard à des flux temps réel
-- Intégrer des modules IA pour la prédiction de la demande et l’optimisation des trajets
-- Utiliser le projet comme base pour hackathon, consulting, ou déploiement opérationnel
+## Innovation technique avancée
+
+**Module IA : Prédiction de la demande et optimisation dynamique des trajets**
+- Utilisation de modèles de machine learning pour anticiper les pics de demande (événements, météo, trafic)
+- Algorithme d’optimisation des trajets pour maximiser le taux d’occupation et réduire les temps morts
+- Intégration possible avec des APIs externes (Google Maps, OpenWeather, OpenData)
+- Visualisation en temps réel des recommandations et des flux sur le dashboard
 
 ---
 
