@@ -1,0 +1,39 @@
+# Template – Documentation de Process
+
+## Objectif
+Décrire le but et les résultats attendus du process.
+
+## Étapes principales
+1. ...
+2. ...
+3. ...
+
+## Outils utilisés
+- ...
+
+## Indicateurs de performance
+- ...
+
+## Points de vigilance
+- ...
+
+---
+
+# Template – Process Documentation (EN)
+
+## Purpose
+Describe the goal and expected outcomes of the process.
+
+## Main Steps
+1. ...
+2. ...
+3. ...
+
+## Tools Used
+- ...
+
+## Performance Indicators
+- ...
+
+## Key Considerations
+- ...
