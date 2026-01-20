@@ -19,6 +19,40 @@ Ce projet est conçu pour tous les professionnels du secteur VTC/opérations, av
 4. Testez l’analyse prédictive avec `predict_immobilisation.py`
 5. Adaptez les modèles et templates à votre contexte (Afrique, Europe, etc.)
 
+## How-to : Visualiser, Scraper, Innover
+
+### 1. Visualiser des graphes et KPIs
+- Lancez le dashboard avec `streamlit run dashboard_streamlit.py` pour explorer les graphes interactifs :
+    - Histogramme des immobilisations par véhicule
+    - Courbe des revenus moyens
+    - Alertes et recommandations automatiques
+- Personnalisez les graphes en modifiant le code Streamlit ou en utilisant matplotlib/seaborn sur les données simulées.
+
+### 2. Scraper des données VTC/Fleetch
+- Utilisez le script ci-dessous pour collecter des données publiques (exemple : annonces, prix, disponibilité, avis) depuis des sites VTC :
+
+```python
+import requests
+from bs4 import BeautifulSoup
+
+url = 'https://www.exemple-vtc.com/fleetch-abidjan'
+response = requests.get(url)
+soup = BeautifulSoup(response.text, 'html.parser')
+
+# Exemple : extraire les prix et disponibilités
+for card in soup.select('.car-card'):
+    nom = card.select_one('.car-name').text
+    prix = card.select_one('.car-price').text
+    dispo = card.select_one('.car-availability').text
+    print(f"{nom} | {prix} | {dispo}")
+```
+- Adaptez le scraping à tout site VTC/Fleetch pour enrichir vos analyses ou simuler des cas réels.
+
+### 3. Innover et personnaliser
+- Ajoutez des modules IA pour prédire la demande, optimiser les trajets, ou détecter les fraudes.
+- Connectez le dashboard à des APIs temps réel (Google Maps, OpenData, etc.) pour visualiser la flotte en direct.
+- Utilisez le générateur pour créer des jeux de données pour hackathons, tests, ou formation.
+
 ## Impact
 - Outils prêts à l’emploi pour tests, démonstrations, ou déploiement réel
 - Adaptabilité à toute flotte, tout pays, tout contexte
