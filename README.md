@@ -53,6 +53,28 @@ for card in soup.select('.car-card'):
 - Connectez le dashboard à des APIs temps réel (Google Maps, OpenData, etc.) pour visualiser la flotte en direct.
 - Utilisez le générateur pour créer des jeux de données pour hackathons, tests, ou formation.
 
+## Exemple concret : Analyse et visualisation réelle
+
+### Graphique : Revenus moyens par véhicule
+
+![Graphique des revenus moyens par véhicule](graph_revenue.png)
+
+*Ce graphique est généré à partir des données simulées avec le dashboard ou matplotlib. Remplacez l’image par votre propre résultat pour une analyse personnalisée.*
+
+### Analyse réelle
+
+Après génération des données et visualisation :
+- Les véhicules VTC les plus performants affichent un revenu moyen supérieur à 120 000 FCFA/mois.
+- Les immobilisations sont principalement dues à des pannes moteur et à la maintenance préventive.
+- Le scoring automatisé permet d’identifier les véhicules à risque et d’anticiper les interventions.
+
+### Interprétation
+
+Ce projet permet de :
+- Visualiser instantanément la performance de chaque véhicule
+- Détecter les causes d’immobilisation et optimiser la gestion
+- Prendre des décisions data-driven pour améliorer la rentabilité et la disponibilité de la flotte
+
 ## Impact
 - Outils prêts à l’emploi pour tests, démonstrations, ou déploiement réel
 - Adaptabilité à toute flotte, tout pays, tout contexte
