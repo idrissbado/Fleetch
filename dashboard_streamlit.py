@@ -5,27 +5,23 @@ Auteur : Idriss Bado
 """
 import streamlit as st
 import pandas as pd
+import os
 
-# Exemple de données
-DATA = {
-    'vehicule_id': [1, 2, 3, 4],
-    'revenu': [120000, 0, 95000, 110000],
-    'immobilisation_jours': [0, 12, 2, 1],
-    'score_performance': [120000, 0, 47500, 55000],
-    'cause_immobilisation': ['-', 'panne moteur', '-', 'maintenance']
-}
-df = pd.DataFrame(DATA)
+st.title("Fleetch – Dashboard Opérationnel Universel")
 
-st.title("Fleetch – Dashboard Opérationnel")
-st.subheader("KPIs de la flotte VTC")
-st.dataframe(df)
+# Charger les données simulées si disponibles
+if os.path.exists('fleet_data_simulated.csv'):
+    df = pd.read_csv('fleet_data_simulated.csv')
+    st.success(f"Données simulées chargées : {len(df)} lignes")
+    st.dataframe(df.head(50))
+    st.write("## Visualisation des immobilisations par véhicule")
+    immobilisation_sum = df.groupby('vehicule_id')['immobilisation_jours'].sum()
+    st.bar_chart(immobilisation_sum)
+    st.write("## Revenus moyens par véhicule")
+    revenu_mean = df.groupby('vehicule_id')['revenu'].mean()
+    st.line_chart(revenu_mean)
+else:
+    st.warning("Aucune donnée simulée trouvée. Veuillez générer les données avec generate_fleet_data.py.")
 
-st.write("## Visualisation des immobilisations")
-st.bar_chart(df.set_index('vehicule_id')['immobilisation_jours'])
-
-st.write("## Recommandations d’action")
-for idx, row in df.iterrows():
-    if row['score_performance'] < 50000:
-        st.warning(f"Véhicule {row['vehicule_id']} : performance faible, intervention recommandée.")
-    elif row['immobilisation_jours'] > 5:
-        st.info(f"Véhicule {row['vehicule_id']} : immobilisation prolongée, vérifier la cause.")
+st.write("## Recommandations d’action universelles")
+st.markdown("- Identifier les véhicules à faible performance pour intervention proactive\n- Utiliser l’analyse prédictive pour anticiper les immobilisations\n- Automatiser le reporting et le suivi terrain pour toute flotte VTC\n- Adapter le modèle à tout contexte opérationnel (Afrique, Europe, etc.)")

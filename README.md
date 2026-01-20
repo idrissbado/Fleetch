@@ -1,25 +1,28 @@
-# Fleetch Operations Manager – Solution d’Excellence
+# Fleetch Operations Manager – Solution Universelle et Exceptionnelle
 
-Ce projet est conçu pour répondre concrètement aux défis opérationnels et business de Fleetch, en démontrant une capacité à piloter la performance, automatiser les process, et outiller les équipes terrain.
+Ce projet est conçu pour tous les professionnels du secteur VTC/opérations, avec des outils innovants et universels pour simuler, analyser, prédire et piloter la performance d’une flotte.
 
-## Solution proposée
+## Fonctionnalités exceptionnelles
 
-- **Analyse intelligente des KPIs** : Script Python avancé pour analyser les données de flotte, détecter les causes d’immobilisation, scorer la performance, et générer des alertes automatiques.
-- **Dashboard interactif** : Application Streamlit pour visualiser en temps réel les indicateurs clés, les immobilisations, et les recommandations d’action.
-- **Automatisation Google Sheets** : Synchronisation des données terrain et génération de rapports quotidiens pour le management.
-- **Structuration des process garage** : Modèle de documentation et exemple d’automatisation pour optimiser l’ouverture et la gestion du garage Fleetch.
-- **Documentation méthodologique** : Explication claire de la démarche, de l’impact opérationnel, et de la valeur ajoutée pour Fleetch.
+- **Générateur de données réalistes** : Simulez l’activité d’une flotte VTC sur plusieurs mois, incidents, immobilisations, et KPIs.
+- **Analyse intelligente et scoring** : Détectez automatiquement les causes d’immobilisation, scorez la performance, et générez des alertes.
+- **Analyse prédictive (Machine Learning)** : Anticipez les immobilisations et optimisez la gestion grâce à un modèle ML.
+- **Dashboard interactif universel** : Visualisez, explorez et pilotez les données simulées ou réelles, avec recommandations d’action.
+- **Structuration et automatisation des process garage** : Modèle adaptable à tout contexte opérationnel.
+- **Documentation méthodologique** : Explication claire de la démarche et de la valeur ajoutée pour tout acteur du secteur.
 
-## Impact opérationnel
+## Utilisation
 
-- Amélioration du taux d’utilisation des véhicules
-- Réduction des immobilisations et optimisation des interventions
-- Pilotage data-driven pour la prise de décision rapide
-- Structuration efficace des process terrain et garage
-- Automatisation des tâches répétitives pour libérer du temps aux équipes
+1. Générez des données avec `generate_fleet_data.py`
+2. Analysez et scorez la performance avec `analyze_kpi_advanced.py`
+3. Lancez le dashboard interactif avec `dashboard_streamlit.py`
+4. Testez l’analyse prédictive avec `predict_immobilisation.py`
+5. Adaptez les modèles et templates à votre contexte (Afrique, Europe, etc.)
 
-## Pour qui ?
-Ce projet s’adresse au management de Fleetch et aux équipes opérationnelles, pour démontrer une expertise terrain, analytique et digitale, directement applicable à la croissance et à la structuration de la flotte.
+## Impact
+- Outils prêts à l’emploi pour tests, démonstrations, ou déploiement réel
+- Adaptabilité à toute flotte, tout pays, tout contexte
+- Valorisation de l’expertise data, opérationnelle et terrain
 
 ## Auteur
 IDRISS BADO
