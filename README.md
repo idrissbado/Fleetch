@@ -1,7 +1,16 @@
 # Fleetch – Operations Manager & Business Analyst (VIE)
 
 ## Présentation
-Fleetch (groupe H., ex Heetch) opère une flotte VTC en forte croissance en Afrique de l’Ouest. Ce projet vise à démontrer vos compétences pour le poste clé d'Operations Manager & Business Analyst à Abidjan.
+Fleetch (groupe H., ex Heetch) opère une flotte VTC en forte croissance en Afrique de l’Ouest. Ce projet est conçu pour démontrer vos compétences réelles et innovantes pour le poste clé d'Operations Manager & Business Analyst à Abidjan.
+
+## Pourquoi ce projet est innovant et prêt pour le réel ?
+Ce projet propose des solutions concrètes et innovantes pour le pilotage d’une flotte VTC :
+- Scripts Python pour l’analyse automatisée des KPIs et la détection des causes d’immobilisation des véhicules.
+- Automatisation Google Sheets pour le reporting terrain et la synchronisation des données.
+- Maquette de dashboard Looker pour le suivi en temps réel de la performance opérationnelle.
+- Templates de documentation pour structurer et digitaliser les process (garage, terrain, management).
+- Structure évolutive pour intégrer des outils IA, automatisations, et analyses avancées.
+Chaque composant est pensé pour une application directe chez Fleetch, avec des exemples concrets et des bases prêtes à déployer.
 
 ## Objectifs du projet
 - Analyse des KPIs business et opérationnels
@@ -25,7 +34,16 @@ Fleetch (groupe H., ex Heetch) opère une flotte VTC en forte croissance en Afri
 - Intéressé par un environnement exigeant et en croissance
 
 ## English Summary
-Fleetch is recruiting for a key Operations Manager & Business Analyst role in Abidjan. This project showcases your skills in business KPI analysis, dashboarding, process structuring, and operational tooling for a fast-growing VTC fleet in West Africa.
+Fleetch is recruiting for a key Operations Manager & Business Analyst role in Abidjan. This project showcases your real-world and innovative skills in business KPI analysis, dashboarding, process structuring, and operational tooling for a fast-growing VTC fleet in West Africa.
+
+## Real-World & Innovative Features
+This project delivers:
+- Automated Python scripts for KPI analysis and vehicle immobilization insights
+- Google Sheets automation for field reporting and data sync
+- Looker dashboard mockup for real-time operational performance
+- Process documentation templates for digital and scalable workflows
+- Garage process folder for future operational expansion
+All components are designed for direct application at Fleetch, with ready-to-use examples and scalable architecture for future innovation (AI, automation, advanced analytics).
 
 ## Author
 IDRISS BADO
