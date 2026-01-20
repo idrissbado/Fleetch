@@ -75,6 +75,35 @@ Ce projet permet de :
 - Détecter les causes d’immobilisation et optimiser la gestion
 - Prendre des décisions data-driven pour améliorer la rentabilité et la disponibilité de la flotte
 
+## Rapport d’analyse expert
+
+### Rapport PDF interactif
+
+[📄 Télécharger le rapport d’analyse complet (PDF)](rapport_fleetch.pdf)
+
+Ce rapport inclut :
+- Graphique des revenus moyens par véhicule
+- Graphique des jours d’immobilisation
+- Classement des véhicules par performance et par risque
+- Recommandations opérationnelles pour maximiser la rentabilité et la disponibilité
+
+### Graphique d’immobilisation
+
+![Graphique des immobilisations par véhicule](graph_immobilisation.png)
+
+### Analyse experte
+
+**Synthèse des résultats :**
+- Les véhicules les plus performants génèrent jusqu’à 150 000 FCFA/mois, tandis que les moins performants sont pénalisés par des immobilisations fréquentes (pannes moteur, maintenance).
+- Le scoring automatisé permet d’identifier les véhicules à risque et d’anticiper les interventions, réduisant les coûts et maximisant la disponibilité.
+- Les causes d’immobilisation sont majoritairement techniques, mais une analyse croisée avec les coûts opérationnels permet de cibler les priorités d’action.
+
+**Recommandations stratégiques :**
+- Mettre en place un suivi prédictif pour anticiper les pannes et planifier les maintenances préventives.
+- Automatiser le reporting terrain pour une prise de décision rapide et data-driven.
+- Prioriser les interventions sur les véhicules à forte valeur ajoutée et à risque élevé.
+- Intégrer des modules IA pour optimiser la gestion de flotte et la satisfaction client.
+
 ## Impact
 - Outils prêts à l’emploi pour tests, démonstrations, ou déploiement réel
 - Adaptabilité à toute flotte, tout pays, tout contexte
